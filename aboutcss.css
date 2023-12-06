@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background:linear-gradient(rgba(47, 248, 255, 0.797),rgba(245, 245, 245, 0.728));
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position:fixed;
+    z-index: 1;
+    background: linear-gradient(rgba(47, 248, 255, 0.797),rgba(245, 245, 245, 0.728));
+    box-shadow: 10px 5px 5px rgba(227, 227, 227, 0.8);
+    margin-top: 0; 
+}
+
+
+#navbar ul li:hover{
+    padding: 7px;
+    background-color: rgba(0, 255, 255, 0.29);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(173, 216, 230, 0.788);
+
+}
+greetings:hover{
+    height:120px;
+    width: 300px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 2em;
+    
+   
+}
+
+li{
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.what{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+}
+.what-p{
+    padding: 10px;
+}
+#img{
+    display: inline-block;
+    margin: 10px;
+    height: 70px;
+    
+
+}
+#img:hover{
+    transform: scale(1.2);
+}
+footer{
+    display: flex;
+    margin-top:135px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top: 2px solid grey;
+    box-shadow: 0 0 20px grey;
+    background: linear-gradient(rgba(245, 245, 245, 0.728),rgba(47, 248, 255, 0.797));
+}
